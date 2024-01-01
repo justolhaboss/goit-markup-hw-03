@@ -120,6 +120,7 @@ img {
   list-style-type: none;
   display: flex;
   padding: 24px 0 24px;
+  gap: 40px;
 }
 .contacts-link {
   color: #434455;
@@ -129,9 +130,8 @@ img {
   letter-spacing: 0.02em;
   font-weight: 400;
   padding: 24px 0 24px;
-  margin-right: 40px;
 }
-.contacts-link:last-child {
+.contacts:last-child {
   margin-right: 0px;
 }
 .contacts .contacts-link:hover {
