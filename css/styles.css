@@ -38,7 +38,7 @@ img {
 /* nav */
 .container {
   max-width: 1158px;
-  padding: 0 15px;
+  padding: 0px 15px;
   margin: 0 auto;
 }
 .header-container {
@@ -228,10 +228,9 @@ img {
   font-style: normal;
   background-color: #fff;
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
-.vision-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -244,11 +243,12 @@ img {
   overflow: hidden;
 }
 .vision-list {
+  padding: 0;
   display: flex;
   gap: 24px;
 }
 .vision-item {
-  width: calc((100% - 72px) / 4);
+  width: 264px;
 }
 .vision-title {
   color: #2e2f42;
@@ -345,7 +345,7 @@ img {
   row-gap: 48px;
 }
 .portfolio-item {
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-box {
   width: 360px;
@@ -368,10 +368,10 @@ img {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 156px;
 }
 .logo-down-all {
-  padding-left: 156px;
-  display: inline-block;
+  display: inline-flex;
   margin-bottom: 16px;
 }
 .logo-down {
@@ -384,7 +384,6 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .span-logo-down {
   color: #f4f4fd;
@@ -395,12 +394,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .logo-down-text {
   color: #f4f4fd;
   width: 264px;
-  margin-left: 156px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
