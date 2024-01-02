@@ -60,6 +60,10 @@ img {
 }
 .header-logo-list {
   display: flex;
+  gap: 40px;
+}
+.header-logo-list:last-child {
+  margin-bottom: 0;
 }
 .header-logo-span {
   color: #4d5ae5;
@@ -98,7 +102,6 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 24px 0;
-  margin-right: 40px;
 }
 .header-logo-link:hover,
 .header-logo-link:focus {
